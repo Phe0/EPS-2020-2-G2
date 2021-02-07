@@ -2,7 +2,8 @@ name: wiki ci
 on:
   push:
     branches:
-      - main
+      - fix-table-layout
+      # - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
