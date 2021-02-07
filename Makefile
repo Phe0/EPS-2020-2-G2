@@ -1,6 +1,7 @@
 THIS_DIR := $(CURDIR)
 
 create: 
+	echo "docker create is running"
 	sudo docker build -t documentacao .
 
 server: 
